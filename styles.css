@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    position: relative;
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.2s ease;
+}
+
+#yesButton {
+    background-color: #28a745;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+#noButton {
+    background-color: #dc3545;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#yesButton:hover {
+    background-color: #218838;
+}
+#adeel{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
